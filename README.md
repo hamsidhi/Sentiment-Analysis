@@ -13,17 +13,24 @@ A **multilingual sentiment analysis system** trained on ~1.4M samples combining 
 ✅ **Production-ready**: Model versioning, metadata, logging  
 ✅ **Well-documented**: Professional rules & guidelines included  
 
+## 📥 Full Datasets (1.4M Samples)
+
+**Samples included** (`data/raw/*_sample.csv` - 100 rows each for testing)
+
+**Full datasets** (auto-download with one command):
+'''
+python src/import_datasets.py # Downloads ALL 1.4M samples
+'''
+
 ## 📊 Dataset Overview
 
-| Dataset | Language | Samples | Type |
-|---------|----------|---------|------|
-| Amazon Reviews | English | ~5K | Product reviews |
-| Movie Reviews | English | ~50K | Movie reviews |
-| Twitter (Sentiment140) | English | ~100K | Tweets |
-| IMDB Dataset | English | ~50K | Movie reviews |
-| BITS Pilani | English | ~200K | Student feedback |
-| **Turkish Sentiment (HF)** | **Turkish 🇹🇷** | **150K** | Reviews |
-| **TOTAL** | **Multilingual** | **~1.4M** | Mixed |
+| Dataset | Source | Size | Command |
+|---------|--------|------|---------|
+| Amazon Reviews | Local sample | 5K full | `import_datasets.py` |
+| IMDB Movies | [HuggingFace](https://huggingface.co/datasets/stanfordnlp/imdb) | 50K | Auto |
+| Turkish Sentiment | [HF Turkish](https://huggingface.co/datasets/maydogan/Turkish_SentimentAnalysis_TRSAv1) | 150K | Auto |
+| Twitter | [Sentiment140](http://help.sentiment140.com/for-students) | 100K | Auto |
+
 
 ## 🚀 Quick Start
 
