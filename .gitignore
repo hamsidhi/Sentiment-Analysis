@@ -1,0 +1,234 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.backup*
+
+# Large Files - CRITICAL FOR THIS PROJECT (🚫 NEVER UPLOAD)
+# RAW DATASETS (1.6GB+ - regenerate with import_datasets.py)
+data/raw/
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.parquet
+data/raw/*.tsv
+data/raw/unstructured/
+
+# PROCESSED DATA (500MB+ - regenerate from raw)
+data/processed/
+data/processed/*.csv
+data/processed/*.parquet
+
+# TRAINED MODELS (200MB+ - retrain locally)
+models/
+models/*.pkl
+models/*.joblib
+models/*.pth
+models/*.onnx
+models/*.h5
+*.pkl
+*.joblib
+*.pth
+*.onnx
+*.h5
+
+# REPORTS & VISUALIZATIONS (100MB+ - regenerate)
+reports/
+reports/*/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+visualizations/
+
+# Temporary & Cache Files
+.cache/
+temp/
+tmp/
+temp_download/
+*.tmp
+*.temp
+download_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.pytest_cache/
+coverage.xml
+coverage.json
+
+# Logs
+logs/
+*.log
+logs.txt
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution & Packaging
+dist/
+build/
+*.egg-info/
+MANIFEST
+
+# Type Checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Credentials & Secrets (🚨 NEVER COMMIT)
+kaggle/
+kaggle.json
+kaggle.kaggle.json
+kaggle_api_key.json
+credentials.json
+secrets.json
+*.pem
+*.key
+*.crt
+*.cer
+.github/credentials
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js (if using frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.LSOverride
+._syspreview
+*~
+
+# Specific to Sentiment Analysis Project
+# Dataset Downloads (massive files)
+data/raw/amazon.csv
+data/raw/IMDB*.csv
+data/raw/twitter*.csv
+data/raw/huggingface*.csv
+data/raw/BITS*.csv
+data/raw/*.zip
+data/raw/*.gz
+
+# Model Checkpoints
+checkpoints/
+saved_models/
+models/saved_models/
+
+# Experiment Tracking
+wandb/
+mlflow/
+experiments/
+runs/
+
+# Hugging Face Cache
+huggingface-hub-cache/
+transformers_cache/
+
+# Kaggle Downloads
+kaggle-datasets/
+kaggle-data/
+
+# Custom Large Files
+sentiment_model_*.pkl
+baseline_tfidf_logreg.pkl
+multilingual_model.pkl
+turkish_model.pkl
+
+# Reports by Dataset (generated)
+reports/ALL_DATASETS_COMBINED/
+reports/amazon/
+reports/movies/
+reports/twitter/
+reports/IMDB*/
+reports/BITS*/
+reports/huggingface*/
+
+# Processed Data Metadata (regenerate)
+data/processed/metadata*.json
+data/processed/sentiment_data.csv
+
+# Visualization Outputs
+*.svg
+charts/
+figures/
+images/
+
+# Docker
+.dockerignore
+Dockerfile.user
+kubernetes/
+k8s/
+
+# CI/CD
+!.github/workflows/
+
+# Allow GitHub Actions
+!.github/
+
+# End of .gitignore
