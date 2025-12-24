@@ -1,8 +1,11 @@
 # Sentiment Analysis Project 🎯
 
-A **multilingual sentiment analysis system** trained on ~1.4M samples combining English product reviews, movie reviews, tweets, and Turkish sentiment data. Perfect for learning NLP/ML and showcasing on GitHub.
+A **multilingual sentiment analysis system** trained on ~1.4M samples...
 
-![Python](https://img.shields.io/badge/python-3.12+-https://img.shields.io/badge/license-MIT-greenhttps://img.shields.io/badge/status-productionhttps://img.shields.io/badge/accuracy-78. 🎯 Project Overview
+![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg) 
+![Status](https://img.shields.io/badge/status-production-brightgreen.svg)
+![Accuracy](https://img.shields.io/badge/accuracy-78.2%25-orange.svg)
 
 **Educational -  Practical -  Extensible -  Production-Ready**
 
